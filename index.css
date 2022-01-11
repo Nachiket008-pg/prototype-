@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #dedede;
+}
+.container{
+    margin: 20px 0 0 500px;
+    padding: 10px;
+    height: 300px;
+    width: 500px;
+    border: 3px solid #000;
+    border-radius: 20px;
+    background-color: #d6e6ff;
+}
+h1{
+    font-size: 1.3em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+input{
+    height: 25px;
+    width: 450px;
+    margin: 20px 0;
+}
+input[type="text"]{
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+button{
+    margin: 15px 40%;
+    padding: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #f7c3a8;
+}
+button:hover{
+    background-color: #f7dfd2;
+}
